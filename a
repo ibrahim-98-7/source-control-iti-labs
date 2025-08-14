@@ -1,0 +1,35 @@
+[33mcommit 2b6b2fb3d185776a093287fbdb7dd1a6af9ee5c7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;32mhima[m[33m)[m
+Author: hima <you@example.com>
+Date:   Thu Aug 14 22:17:43 2025 +0200
+
+    asamby
+
+[33mcommit b3a3610f13de0ef52ad3208b71b3214928847e64[m
+Author: hima <you@example.com>
+Date:   Thu Aug 14 22:13:25 2025 +0200
+
+    add thing
+
+[33mcommit e0e25dc029f197070500197875fac05c7cfd7bd4[m
+Author: hima <you@example.com>
+Date:   Thu Aug 14 22:12:18 2025 +0200
+
+    okay
+
+[33mcommit 1b88c6eac5e37c2e513d8831524a79692c2d0960[m
+Author: hima <you@example.com>
+Date:   Thu Aug 14 22:03:48 2025 +0200
+
+    creating python file
+
+[33mcommit ac36a8952f25331168f6b96aab3520e4b0a0b945[m
+Author: hima <you@example.com>
+Date:   Thu Aug 14 21:45:04 2025 +0200
+
+    list
+
+[33mcommit efbc67deb377f6304691e6f26ea034b4c9d45e17[m
+Author: Your Name <you@example.com>
+Date:   Wed Aug 13 09:46:19 2025 -0700
+
+    [Fix] Make mobile search bar clickable
