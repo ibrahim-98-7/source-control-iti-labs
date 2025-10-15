@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30-Day Power BI Mastery Plan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📘 30-Day Power BI Mastery Plan</h1>
+            <p>Your complete guide from beginner to expert, aligned with the Microsoft PL-300 exam.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <span id="progressText">0% Complete</span>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Actionable Task / Key Concepts</th>
+                        <th>Done</th>
+                    </tr>
+                </thead>
+                <tbody id="plan-body">
+                    <tr class="week-header"><td colspan="4">Week 1: Getting Started & Data Preparation</td></tr>
+                    <tr data-day="1"><td>1</td><td>Introduction to Power BI Ecosystem</td><td>Learn Power BI components (Desktop, Service, Mobile, Gateway). Install Power BI Desktop and explore the interface.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="2"><td>2</td><td>Data Connections</td><td>Connect Power BI to Excel, CSV, and SQL Server. Practice importing multiple datasets.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="3"><td>3</td><td>Power Query Basics</td><td>Explore Power Query Editor. Perform basic transformations: rename columns, change data types, remove duplicates.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="4"><td>4</td><td>Advanced Power Query Transformations</td><td>Use “Unpivot,” merge, and append queries. Create calculated columns in Power Query.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="5"><td>5</td><td>Data Cleaning Techniques</td><td>Detect and handle null values, remove errors, and format text/date/time data properly.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="6"><td>6</td><td>Data Loading and Refresh</td><td>Load cleaned data into the model. Learn difference between Import vs DirectQuery. Practice scheduled refresh.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="7"><td>7</td><td>Mini-Project: Data Cleaning</td><td>Take a messy CSV dataset and clean + load it properly using Power Query.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr class="week-header"><td colspan="4">Week 2: Data Modeling & Relationships</td></tr>
+                    <tr data-day="8"><td>8</td><td>Understanding Data Models</td><td>Learn star vs snowflake schema, fact and dimension tables. Identify measures vs attributes.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="9"><td>9</td><td>Building Relationships</td><td>Create relationships manually and automatically. Understand cardinality and cross-filter direction.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="10"><td>10</td><td>Hierarchies and Sorting</td><td>Create date hierarchies, custom sort orders (e.g., month name by month number).</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="11"><td>11</td><td>Calculated Columns</td><td>Create calculated columns using DAX functions like RELATED, IF, and SWITCH.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="12"><td>12</td><td>Measures and Aggregations</td><td>Create basic DAX measures (SUM, AVERAGE, COUNTROWS). Understand implicit vs explicit measures.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="13"><td>13</td><td>Time Intelligence Functions</td><td>Use DAX time intelligence (TOTALYTD, SAMEPERIODLASTYEAR, DATEADD). Connect a Date table.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="14"><td>14</td><td>Mini-Project: Sales Model</td><td>Model a “Sales & Customers” dataset with correct relationships, hierarchies, and key measures.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr class="week-header"><td colspan="4">Week 3: Visualization and Reporting</td></tr>
+                    <tr data-day="15"><td>15</td><td>Report Design Principles</td><td>Learn data visualization best practices. Explore formatting, alignment, and color themes.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="16"><td>16</td><td>Core Visuals</td><td>Create visuals: bar/column, line, pie, map, and matrix. Customize formatting and interactions.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="17"><td>17</td><td>Advanced & Custom Visuals</td><td>Use scatter charts, KPIs, cards, and import custom visuals from the marketplace.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="18"><td>18</td><td>Slicers, Filters & Drill Through</td><td>Add report/page filters, drill-through pages, and create hierarchical slicers.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="19"><td>19</td><td>Bookmarks and Buttons</td><td>Build navigation using bookmarks, buttons, and page navigation effects.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="20"><td>20</td><td>Tooltips and Dynamic Titles</td><td>Create dynamic tooltips and use DAX to create dynamic titles/subtitles in visuals.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="21"><td>21</td><td>Mini-Project: Executive Dashboard</td><td>Create a professional 3-page dashboard (Overview, Sales Performance, Regional Analysis).</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr class="week-header"><td colspan="4">Week 4: Advanced Analytics, Optimization & Service</td></tr>
+                    <tr data-day="22"><td>22</td><td>Advanced DAX</td><td>Use CALCULATE, FILTER, ALL, VALUES, and dynamic context transition. Solve complex DAX scenarios.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="23"><td>23</td><td>Performance Optimization</td><td>Learn to reduce model size, use summarization tables, and manage relationships efficiently.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="24"><td>24</td><td>Row-Level Security (RLS)</td><td>Implement static and dynamic RLS with DAX filters. Test roles in Power BI Desktop.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="25"><td>25</td><td>Power BI Service Overview</td><td>Publish reports to Power BI Service. Understand workspaces, datasets, and dashboards.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="26"><td>26</td><td>Sharing and Collaboration</td><td>Share dashboards, manage permissions, and set up app workspaces for teams.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="27"><td>27</td><td>Data Refresh and Gateways</td><td>Configure scheduled refresh, set up an on-premises data gateway, and monitor refresh history.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="28"><td>28</td><td>Power BI Apps & Pipelines</td><td>Package reports into apps and use deployment pipelines for staging/production environments.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="29"><td>29</td><td>Mini-Project: Full BI Solution</td><td>End-to-end build: from raw data → Power Query → Model → DAX → Report → Publish → RLS.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                    <tr data-day="30"><td>30</td><td>PL-300 Exam Review</td><td>Review key topics, practice with sample datasets, and simulate business use cases.</td><td><input type="checkbox" class="task-checkbox"></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <section class="additional-info">
+            <h2>🧠 Additional Tips & Resources</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>✅ Practice Daily</h3>
+                    <p>Spend at least 1 hour hands-on for each topic to build muscle memory.</p>
+                </div>
+                <div class="card">
+                    <h3>💡 Use Real Data</h3>
+                    <p>Download Microsoft’s AdventureWorksDW or Financial Sample dataset for realistic practice.</p>
+                </div>
+                <div class="card">
+                    <h3>📊 Resources</h3>
+                    <ul>
+                        <li><a href="https://learn.microsoft.com/en-us/training/paths/data-analyst-power-bi/" target="_blank">Microsoft Learn Path</a></li>
+                        <li><a href="https://dax.guide/" target="_blank">DAX Guide</a></li>
+                        <li><a href="https://community.powerbi.com/" target="_blank">Power BI Community</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created with guidance from a 10-year experienced AI developer.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
